@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reaction Time Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Header section containing game title -->
     <header>
         <h1>Reaction Time Game</h1>
     </header>
 
     <main>
 
+        <!-- Grid of 4 buttons that will serve as the main interactive element of the game -->
         <div id="buttons">
 
-            <button id="button1" class="btn"></button>
-            <button id="button2" class="btn"></button>
-            <button id="button3" class="btn"></button>
-            <button id="button4" class="btn"></button>
+            <button id="button1"></button>
+            <button id="button2"></button>
+            <button id="button3"></button>
+            <button id="button4"></button>
 
         </div>
 
+        <!-- Start button will begin timer -->
         <button id="start-button">START GAME</button>
 
-        <p>Best: <span id="best">___</span></p>
-        <p>Last: <span id="last">___</span></p>
+        <!-- Text displaying best reaction time achieved and the last reaction time achieved -->
+        <section id="results">
+
+            <p>Best: <span id="best">___</span></p>
+            <p>Last: <span id="last">___</span></p>
+            
+        </section>
 
     </main>
 
